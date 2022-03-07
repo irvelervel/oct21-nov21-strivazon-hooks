@@ -52,7 +52,7 @@ const BookDetail = ({ bookSelected }) => {
 
   const dispatch = useDispatch()
 
-  const isAlreadyInCart = booksInCart.find((b) => b.id === book.id)
+  const isAlreadyInCart = booksInCart.find((b) => b.id === book?.id)
 
   return (
     <div className='mt-3'>
